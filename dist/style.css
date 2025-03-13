@@ -1,0 +1,479 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #fff; /* White text */
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1f1f1f; /* Dark gray background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo Styling */
+.logo img {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f39c12; /* Hover effect color */
+}
+
+/* CTA Button Styling */
+.cta-button .btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #e74c3c; /* Red button */
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.cta-button .btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #fff; /* White text */
+}
+
+/* Hero Section Styling */
+.hero {
+  position: relative;
+  height: 100vh; /* Full height of the viewport */
+  https://i.ibb.co/Y4DGs6d9/Leonardo-Phoenix-10-a-vibrant-mouthwatering-illustration-of-a-0.jpg: url("https://i.ibb.co/Pz9cH7Z0/2024-06-24-05-43-IMG-5613.jpg"); /* Replace with your hero image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* Hero Content Styling */
+.hero-content {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Dark overlay for better text visibility */
+  padding: 40px 60px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #e74c3c; /* Red button */
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+/* Home Section Styling */
+.home {
+    background-color: #1f1f1f; /* Dark gray background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.home h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 24px;
+    color: #bbb; /* Lighter gray text for description */
+    margin-bottom: 30px;
+}
+
+.home .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c; /* Red button */
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.home .btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+/* Menu Section Styling */
+.menu {
+    background-color: #1f1f1f; /* Dark gray background */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Menu Items Container */
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+/* Individual Menu Item */
+.menu-item {
+    background-color: #2c2c2c; /* Slightly lighter dark background for item */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #333;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.menu-item .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c; /* Red color for price */
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+/* About Us Section Styling */
+.about {
+    background-color: #1f1f1f; /* Dark gray background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 20px;
+    color: #bbb; /* Lighter gray text for description */
+    margin-bottom: 20px;
+}
+
+.about .values {
+    margin-top: 30px;
+}
+
+.about .values h3 {
+    font-size: 28px;
+    color: #e74c3c; /* Red color for subheading */
+    margin-bottom: 15px;
+}
+
+.about .values ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.about .values ul li {
+    font-size: 18px;
+    color: #bbb;
+    margin: 10px 0;
+}
+
+.about .values ul li strong {
+    color: #fff; /* Highlight the key terms */
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+/* Contact Section Styling */
+.contact {
+    background-color: #1f1f1f; /* Dark gray background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #bbb; /* Lighter gray text for description */
+    margin-bottom: 40px;
+}
+
+/* Contact Details Styling */
+.contact-details {
+    margin-bottom: 30px;
+}
+
+.contact-details h3 {
+    font-size: 28px;
+    color: #e74c3c; /* Red color for subheading */
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    font-size: 18px;
+    color: #bbb;
+}
+
+.contact-details a {
+    color: #e74c3c; /* Red color for email link */
+    text-decoration: none;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #2c2c2c; /* Slightly lighter dark gray */
+    color: #fff;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c; /* Red button */
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+}
+
+/* Order Now Section Styling */
+.order-now {
+    background-color: #1f1f1f; /* Dark gray background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.order-now h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.order-now p {
+    font-size: 20px;
+    color: #bbb; /* Lighter gray text for description */
+    margin-bottom: 40px;
+}
+
+/* Button Styling */
+.order-now .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c; /* Red button */
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.order-now .btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
